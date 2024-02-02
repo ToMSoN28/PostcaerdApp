@@ -1,0 +1,10 @@
+{
+  "base_URL": "http://127.0.0.1:8080",
+  "login": "/login",
+  "get_all_ps": "/postcard/all",
+  "get_user_ps": "/postcard/user",
+  "get_single_ps": "/postcard/<int:postcard_id>",
+  "create_ps": "/postcard/add",
+  "update_ps": "/postcard/update/<int:postcard_id>",
+  "delete_ps": "/postcard/delete/<int:postcard_id>"
+}
